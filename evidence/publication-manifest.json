@@ -1,0 +1,32 @@
+{
+  "approved_media": [
+    {
+      "file": "public/mydesk-camera-path.mp4",
+      "bytes": 1340287,
+      "sha256": "13d2988200bcae63f8c37ea25ac0443a93aaa90f5d0b89ebd0f62ed5704d7df9",
+      "frames": 200,
+      "fps": 24.0,
+      "seconds": 8.333333333333334,
+      "visual_review": "input camera views 0-25 show no people; public path restricted to interpolated frames 0-199; background person seen in full-render views 27-34 excluded"
+    },
+    {
+      "file": "public/mydesk-comparison.mp4",
+      "bytes": 2208053,
+      "sha256": "25514e302332f4ded14e2692283f01a36849c6d8c6ec777c6ad4e42111278627",
+      "frames": 26,
+      "fps": 2.0,
+      "seconds": 13.0,
+      "visual_review": "input camera views 0-25 show no people; public path restricted to interpolated frames 0-199; background person seen in full-render views 27-34 excluded"
+    }
+  ],
+  "excluded_local_only": [
+    "outputs/20260916/**/frames/**",
+    "outputs/20260916/**/*.mp4",
+    "outputs/20260916/**/*.png",
+    "outputs/20260916/privacy-review-contact.jpg",
+    "outputs/20260916/refined_200/point_cloud.ply",
+    "outputs/20260916/refined_200/optimizer-state.pt",
+    "source-map.json"
+  ],
+  "public_numeric_records": "JSON/CSV/log files in outputs/20260916 may be published; all paths sanitized"
+}

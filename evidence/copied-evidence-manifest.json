@@ -1,0 +1,74 @@
+[
+  {
+    "evidence": "images/unity-20260108.png",
+    "source_id": "desktop_gs_root",
+    "source_relative_path": "2026_01_08/unity 구현.png",
+    "bytes": 3693038,
+    "sha256": "bd7cf017f7ef70b0e5a3c91beafb60cae41085896847331873fa8568bdeac1b4",
+    "copy_verified": true
+  },
+  {
+    "evidence": "images/cloudcompare-20260105.jpg",
+    "source_id": "desktop_gs_root",
+    "source_relative_path": "2026_01_08/point cloud.jpg",
+    "bytes": 2944187,
+    "sha256": "8f0c932b603618e559eb1bb03c24255ad2239c2d1a14c3480201fd08ceecc7c3",
+    "copy_verified": true
+  },
+  {
+    "evidence": "historical/video_to_gs_dataset.py",
+    "source_id": "wsl_graphdeco",
+    "source_relative_path": "video_to_gs_dataset.py",
+    "bytes": 8313,
+    "sha256": "96d7346fe6cb61ef64de4d3c3d37eaa132472e0f3e50e9a58566ed886c53076a",
+    "copy_verified": true
+  },
+  {
+    "evidence": "historical/unity-mydesk.asset",
+    "source_id": "unity_vr",
+    "source_relative_path": "VR-URP/Assets/GaussianAssets/model-point_cloud-iteration_30000-point_cloud.asset",
+    "bytes": 15392,
+    "sha256": "7dfd82a2f997103beedcae37d74c783c3fdb8f3cd3d7f21f266a2be010ed8776",
+    "copy_verified": true
+  },
+  {
+    "evidence": "historical/GaussianTestScene.unity",
+    "source_id": "unity_vr",
+    "source_relative_path": "VR-URP/Assets/GaussianTestScene.unity",
+    "bytes": 8123,
+    "sha256": "3e1da4c20431f19537353ae84742344356d79e13003001cc361db4cb8a2c01e7",
+    "copy_verified": true
+  },
+  {
+    "evidence": "historical/unity-vr-manifest.json",
+    "source_id": "unity_vr",
+    "source_relative_path": "VR-URP/Packages/manifest.json",
+    "bytes": 3164,
+    "sha256": "85513a5e79c0419b33c5f7d26f1e15654c95b98b29c482f22f9333632f996ef2",
+    "copy_verified": true
+  },
+  {
+    "evidence": "historical/unity-version.txt",
+    "source_id": "unity_vr",
+    "source_relative_path": "VR-URP/ProjectSettings/ProjectVersion.txt",
+    "bytes": 85,
+    "sha256": "b51164d22c4d2716ba8aee7f0b59d6b7dd0efa8552fd1db2a8c3b123fae3a1ec",
+    "copy_verified": true
+  },
+  {
+    "evidence": "historical/unity-MIT-LICENSE.md",
+    "source_id": "unity_vr",
+    "source_relative_path": "LICENSE.md",
+    "bytes": 1118,
+    "sha256": "1c9515a8b04b4d727114a11b2571e57f2015bcca642fdf0e96668fdc97567a13",
+    "copy_verified": true
+  },
+  {
+    "evidence": "historical/unity-package-LICENSE.md",
+    "source_id": "unity_vr",
+    "source_relative_path": "package/LICENSE.md",
+    "bytes": 1095,
+    "sha256": "6385571f0d158e854d279845a8e08bb0e85ba9721f017b7d9a1ac68199e7f341",
+    "copy_verified": true
+  }
+]

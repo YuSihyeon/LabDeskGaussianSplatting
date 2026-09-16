@@ -1,0 +1,16 @@
+{
+  "seed": 0,
+  "width": 480,
+  "height": 854,
+  "steps": 200,
+  "interpolation_per_segment": 8,
+  "video_fps": 24,
+  "torch": "2.7.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "camera_count": 59,
+  "eval_split": "all existing training views; no held-out test",
+  "method": "actual graphdeco CUDA splat rasterization; SH3; black background; antialiasing off",
+  "refinement": "PLY warm start, fresh Adam, fixed Gaussian count; no densification/pruning/exposure",
+  "historical_optimizer_state_restored": false
+}

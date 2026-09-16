@@ -1,0 +1,12 @@
+{
+  "sh_degree": 3,
+  "source_path": "<SOURCE_PATH>",
+  "model_path": "<MODEL_PATH>",
+  "images": "images",
+  "depths": "",
+  "resolution": -1,
+  "white_background": false,
+  "train_test_exp": false,
+  "data_device": "cuda",
+  "eval": false
+}

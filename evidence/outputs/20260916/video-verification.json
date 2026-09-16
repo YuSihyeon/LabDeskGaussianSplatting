@@ -1,0 +1,67 @@
+[
+  {
+    "file": "comparison-7000-30000-refined.mp4",
+    "bytes": 17301873,
+    "decoded_frames": 59,
+    "header_frames": 59,
+    "fps": 2.0,
+    "seconds": 29.5,
+    "width": 1440,
+    "height": 896,
+    "mean_intensity_min": 134.08057208994708,
+    "mean_intensity_max": 171.15913990162036,
+    "sha256": "0cfe2f46d74510855b7f4593bad1ed18f060d17514a6a2beae1d21ece34b5905"
+  },
+  {
+    "file": "iteration_30000/camera-path.mp4",
+    "bytes": 14185795,
+    "decoded_frames": 464,
+    "header_frames": 464,
+    "fps": 24.0,
+    "seconds": 19.333333333333332,
+    "width": 480,
+    "height": 854,
+    "mean_intensity_min": 122.83093367811605,
+    "mean_intensity_max": 180.60288104996096,
+    "sha256": "bc73cc4dbe5d560779003ce2e38d725e38bbec3b4e2372dd4f330af5a20b5c24"
+  },
+  {
+    "file": "iteration_30000/training-views.mp4",
+    "bytes": 6068873,
+    "decoded_frames": 59,
+    "header_frames": 59,
+    "fps": 2.0,
+    "seconds": 29.5,
+    "width": 480,
+    "height": 854,
+    "mean_intensity_min": 140.32861208691128,
+    "mean_intensity_max": 179.15385115794953,
+    "sha256": "2b51a7da4bd5a45a54a0a66c2eb26a2e240a8662c18fe9be3fe689fbe58cebfd"
+  },
+  {
+    "file": "iteration_7000/training-views.mp4",
+    "bytes": 5513120,
+    "decoded_frames": 59,
+    "header_frames": 59,
+    "fps": 2.0,
+    "seconds": 29.5,
+    "width": 480,
+    "height": 854,
+    "mean_intensity_min": 140.24255789747593,
+    "mean_intensity_max": 179.38441240567266,
+    "sha256": "2e56fe3e03fa95ad240e0f3b0a4653a35a3d86d48762e0a77cbf2ab82499b9fe"
+  },
+  {
+    "file": "refined_200/training-views.mp4",
+    "bytes": 6061351,
+    "decoded_frames": 59,
+    "header_frames": 59,
+    "fps": 2.0,
+    "seconds": 29.5,
+    "width": 480,
+    "height": 854,
+    "mean_intensity_min": 140.3502057311996,
+    "mean_intensity_max": 179.07927481785063,
+    "sha256": "f988f8dc5b18bdb915bbd02932511e9a0f456c2b1ca94436b0cfc8d0564f3bf8"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "psnr_db": 34.07175971697344,
+  "ssim": 0.9618436431480666,
+  "l1": 0.010606619600459175,
+  "view_count": 59,
+  "gaussians": 1067490,
+  "evaluation": "training views only"
+}

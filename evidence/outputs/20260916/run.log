@@ -1,0 +1,18 @@
+ENV 2.7.0+cu128 12.8 NVIDIA GeForce RTX 5060 Ti
+CAMERAS 59 RESOLUTION 480 854
+iteration_7000 {"psnr_db": 30.927560380028474, "ssim": 0.9324276184631606, "l1": 0.01592354864766032, "view_count": 59, "gaussians": 720554, "evaluation": "training views only"}
+iteration_30000 {"psnr_db": 34.07175971697344, "ssim": 0.9618436431480666, "l1": 0.010606619600459175, "view_count": 59, "gaussians": 1067490, "evaluation": "training views only"}
+INTERPOLATED PATH
+PATH FRAMES 464
+REFINE 20 loss 0.010968671180307865
+REFINE 40 loss 0.007815384306013584
+REFINE 60 loss 0.014466343447566032
+REFINE 80 loss 0.006785622797906399
+REFINE 100 loss 0.012239228934049606
+REFINE 120 loss 0.015386234037578106
+REFINE 140 loss 0.017644278705120087
+REFINE 160 loss 0.014457469806075096
+REFINE 180 loss 0.011222004890441895
+REFINE 200 loss 0.00855690985918045
+refined_200 {"psnr_db": 36.98191298682867, "ssim": 0.9700052091630839, "l1": 0.007641219683938613, "view_count": 59, "gaussians": 1067490, "evaluation": "training views only"}
+COMPLETE {"iteration_7000": {"psnr_db": 30.927560380028474, "ssim": 0.9324276184631606, "l1": 0.01592354864766032, "view_count": 59, "gaussians": 720554, "evaluation": "training views only"}, "iteration_30000": {"psnr_db": 34.07175971697344, "ssim": 0.9618436431480666, "l1": 0.010606619600459175, "view_count": 59, "gaussians": 1067490, "evaluation": "training views only"}, "refined_200": {"psnr_db": 36.98191298682867, "ssim": 0.9700052091630839, "l1": 0.007641219683938613, "view_count": 59, "gaussians": 1067490, "evaluation": "training views only"}, "total_wall_seconds": 44.83225703239441, "cuda_max_memory_allocated_bytes": 1736743936}

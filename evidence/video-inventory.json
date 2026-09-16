@@ -1,0 +1,42 @@
+[
+  {
+    "source_id": "desk_20260108",
+    "bytes": 8032460,
+    "frames": 600.0,
+    "fps": 29.972525185246855,
+    "seconds": 20.018333333333334,
+    "width": 1080.0,
+    "height": 1920.0,
+    "sha256": "03bbc01cbb5c49dfe601d3a5ae544847a25b6c9422b63c3ad7d803dced7ba57e"
+  },
+  {
+    "source_id": "lab_20251227",
+    "bytes": 1687537,
+    "frames": 193.0,
+    "fps": 24.0,
+    "seconds": 8.041666666666666,
+    "width": 960.0,
+    "height": 720.0,
+    "sha256": "e4128bcbae084dd36ded3cd8bcbe8789167fef47bb40f978ab684c9a49995792"
+  },
+  {
+    "source_id": "bag_20251227",
+    "bytes": 2983716,
+    "frames": 223.0,
+    "fps": 29.973118279569892,
+    "seconds": 7.44,
+    "width": 1080.0,
+    "height": 1920.0,
+    "sha256": "105e6def27bc1c75ed83f572f2ba0916584e6cc979cfbc3b7c1a5e6156619087"
+  },
+  {
+    "source_id": "wsl_source_video",
+    "bytes": 13178554,
+    "frames": 986.0,
+    "fps": 29.974160206718345,
+    "seconds": 32.895,
+    "width": 1080.0,
+    "height": 1920.0,
+    "sha256": "dbb4d60b91381b6326f3af043145b80817950ec801693fa03b40fcced32ad7a0"
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "source_id": "desktop_mydesk",
+    "files": [
+      {
+        "relative_path": "model/cameras.json",
+        "bytes": 23737,
+        "sha256": "1c6d859da0d5d2b5b8e4a9e3765c9a2f5017b52f4c614fc4c15da36777575baa"
+      },
+      {
+        "relative_path": "model/input.ply",
+        "bytes": 225034,
+        "sha256": "5da39e3b3a881c7d37955180ac385f9e31229998b32a6d4d386de3d581fd146a"
+      },
+      {
+        "relative_path": "model/point_cloud/iteration_30000/point_cloud.ply",
+        "bytes": 264739052,
+        "sha256": "a4f2eb462d8e695f8341d2ed62ec6c252be03df7189c32eb211ada1e9e85e267"
+      },
+      {
+        "relative_path": "gs_dataset/sparse/0/cameras.bin",
+        "bytes": 64,
+        "sha256": "2663eec79abb62ac82a1305a8298507d71c63478af03a0b6e57080837af06c69"
+      },
+      {
+        "relative_path": "frames/000001.png",
+        "bytes": 1434800,
+        "sha256": "3a42f1ac83308c5465953cf18db8407002ece52cbdb0ace04b7b2ec1ba0cac2d"
+      },
+      {
+        "relative_path": "gs_dataset/images/000001.png",
+        "bytes": 1058861,
+        "sha256": "04fdc874adf4b12153e1ec94152701840bf192aff2f3c3f90d99997624b6b493"
+      }
+    ],
+    "first_camera": {
+      "id": 0,
+      "img_name": "000001.png",
+      "width": 1062,
+      "height": 1889,
+      "position": [
+        4.985795535118063,
+        -3.482202642554547,
+        4.524216787474224
+      ],
+      "rotation": [
+        [
+          -0.19110446467891717,
+          0.3207525671883993,
+          -0.9276836067441505
+        ],
+        [
+          -0.4302264008243802,
+          0.8221115640802951,
+          0.3728777550875768
+        ],
+        [
+          0.8822609181038702,
+          0.47037258301000345,
+          -0.019112967823266745
+        ]
+      ],
+      "fy": 1666.3786137953853,
+      "fx": 1666.3786137953855
+    }
+  },
+  {
+    "source_id": "wsl_output_mydesk",
+    "files": [
+      {
+        "relative_path": "model/cameras.json",
+        "bytes": 23766,
+        "sha256": "6afd6878fad2d8ee8e42e9becbf824a2227036aa4dc9f4e8b26609bbfc768ac0"
+      },
+      {
+        "relative_path": "model/input.ply",
+        "bytes": 223819,
+        "sha256": "6806c93511f6f3939e8e8a36a62a4ffc61de6b03b0acfb2c0bc2e7706a520080"
+      },
+      {
+        "relative_path": "model/point_cloud/iteration_30000/point_cloud.ply",
+        "bytes": 264739052,
+        "sha256": "a4f2eb462d8e695f8341d2ed62ec6c252be03df7189c32eb211ada1e9e85e267"
+      },
+      {
+        "relative_path": "gs_dataset/sparse/0/cameras.bin",
+        "bytes": 64,
+        "sha256": "2663eec79abb62ac82a1305a8298507d71c63478af03a0b6e57080837af06c69"
+      },
+      {
+        "relative_path": "frames/000001.png",
+        "bytes": 1434800,
+        "sha256": "3a42f1ac83308c5465953cf18db8407002ece52cbdb0ace04b7b2ec1ba0cac2d"
+      },
+      {
+        "relative_path": "gs_dataset/images/000001.png",
+        "bytes": 1058861,
+        "sha256": "04fdc874adf4b12153e1ec94152701840bf192aff2f3c3f90d99997624b6b493"
+      }
+    ],
+    "first_camera": {
+      "id": 0,
+      "img_name": "000001.png",
+      "width": 1061,
+      "height": 1888,
+      "position": [
+        5.764943131463962,
+        0.6630380897686928,
+        -4.9439776854855015
+      ],
+      "rotation": [
+        [
+          0.9783213904382061,
+          0.028984169572600794,
+          -0.205054078050747
+        ],
+        [
+          -0.02347531173897963,
+          0.9992964906962486,
+          0.029247793436772473
+        ],
+        [
+          0.20575754360366194,
+          -0.023800033536722342,
+          0.9783135446541861
+        ]
+      ],
+      "fy": 1670.0795637319807,
+      "fx": 1670.0795637319807
+    }
+  },
+  {
+    "source_id": "unity_vr_ply",
+    "relative_path": "VR-URP/Assets/point_cloud.ply",
+    "bytes": 264739052,
+    "sha256": "a4f2eb462d8e695f8341d2ed62ec6c252be03df7189c32eb211ada1e9e85e267"
+  }
+]

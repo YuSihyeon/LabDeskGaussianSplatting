@@ -1,0 +1,28 @@
+{
+  "iteration_7000": {
+    "psnr_db": 30.927560380028474,
+    "ssim": 0.9324276184631606,
+    "l1": 0.01592354864766032,
+    "view_count": 59,
+    "gaussians": 720554,
+    "evaluation": "training views only"
+  },
+  "iteration_30000": {
+    "psnr_db": 34.07175971697344,
+    "ssim": 0.9618436431480666,
+    "l1": 0.010606619600459175,
+    "view_count": 59,
+    "gaussians": 1067490,
+    "evaluation": "training views only"
+  },
+  "refined_200": {
+    "psnr_db": 36.98191298682867,
+    "ssim": 0.9700052091630839,
+    "l1": 0.007641219683938613,
+    "view_count": 59,
+    "gaussians": 1067490,
+    "evaluation": "training views only"
+  },
+  "total_wall_seconds": 44.83225703239441,
+  "cuda_max_memory_allocated_bytes": 1736743936
+}

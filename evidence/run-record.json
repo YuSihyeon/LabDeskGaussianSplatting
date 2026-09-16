@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-16",
+  "graphdeco_git_commit": "54c035f7834b564019656c3e3fcc3646292f727d",
+  "unity_vr_git_commit": "ae603c5ac1c1ea854abca4dad92db4a4c723e22d",
+  "graphdeco_modules": [
+    {
+      "relative_path": "gaussian_renderer/__init__.py",
+      "sha256": "a25cf5fdb22cd8757fb2a1e37b75352042d65b16138a9fa6243f8616ca1369b8"
+    },
+    {
+      "relative_path": "scene/gaussian_model.py",
+      "sha256": "546ba41528a879af4d83bd280a3ef3cbcca9a5e9132204185aaa8f8ee9ffa310"
+    },
+    {
+      "relative_path": "scene/cameras.py",
+      "sha256": "7344b9a4c95e3649becab1b9e30eb0b351a15a61370f64352dcb231aed916128"
+    },
+    {
+      "relative_path": "utils/graphics_utils.py",
+      "sha256": "d6e75de8161e98b72c2691e8a944a842e1b6625d2306035d079c868ac632edfc"
+    },
+    {
+      "relative_path": "utils/loss_utils.py",
+      "sha256": "e4c69eca823525d3057c5441953c5b7c83ddb21d579039d7e82cdb13d35d3455"
+    },
+    {
+      "relative_path": "utils/general_utils.py",
+      "sha256": "97553507caa4f3e6849919d9658b0b0da064e6c8f19142045da79072171ffa51"
+    }
+  ],
+  "runner_sha256": "76470bcbd0b7663a86813a5ac7082e586ecdba92cbe973b168196cdeeeaa64f3",
+  "command_portable": "python -B -X utf8 -u evidence/rerun_mydesk.py --repo GRAPHDECO_ROOT --dataset MYDESK/gs_dataset --model MYDESK/model --out NEW_OUTPUT --width 480 --steps 200 --interpolation 8",
+  "read_only_inputs": true,
+  "camera_selection": "desktop model/cameras.json; sorted img_name; alternate WSL cameras.json not substituted",
+  "original_capture_pipeline_executed": false,
+  "original_30000_iteration_training_repeated": false,
+  "new_experiment": "200 Adam steps initialized from original 30000 PLY; fresh optimizer; no densification, pruning, or exposure optimization",
+  "metrics_on": "59 existing training views at 480x854; averaged per-view scores; no independent test set",
+  "publication_filter": "Public clips use only views 0-25 / interpolated frames 0-199 to avoid background people. All full videos and frame sequences stay local."
+}

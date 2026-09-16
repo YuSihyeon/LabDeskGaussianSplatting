@@ -1,0 +1,272 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 9,
+    "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 78,
+    "sha256": "5bebd01bc5ef8b820a354fde847c868d067186042c7c6d1cab482391f4f92dd0"
+  },
+  {
+    "path": "ATTRIBUTION.md",
+    "bytes": 2739,
+    "sha256": "f90d0293cb47abed63ed9d765ac213cdf35cf8d64df91b8bb67b3ed587ba1a8c"
+  },
+  {
+    "path": "DATA_AND_RESTORE.md",
+    "bytes": 7229,
+    "sha256": "0ebbfe134fa23e15a4181a1a2711352073928ffbd8fbf401836c9a755dac5bbb"
+  },
+  {
+    "path": "README.md",
+    "bytes": 23563,
+    "sha256": "def1d19aa5ce765dab2f20f4c410d19171eee2973376f37e3f7cdfdfaf45772f"
+  },
+  {
+    "path": "evidence/copied-evidence-manifest.json",
+    "bytes": 2622,
+    "sha256": "0c6db931cc9111c5b61d715c5294b23fddd86626cec889937cfa1bf5c2667f73"
+  },
+  {
+    "path": "evidence/historical-statistics.json",
+    "bytes": 34705,
+    "sha256": "2b9b1909d6b95eb4a9a1d570ed860af67c80ffca5d12172506bfb0985e839b46"
+  },
+  {
+    "path": "evidence/historical/GaussianTestScene.unity",
+    "bytes": 8123,
+    "sha256": "3e1da4c20431f19537353ae84742344356d79e13003001cc361db4cb8a2c01e7"
+  },
+  {
+    "path": "evidence/historical/training-config.json",
+    "bytes": 253,
+    "sha256": "ea1d73fe1c8f4c1ac8c0e5a66134859216e1b9801fc8517452787b894e0cb0a5"
+  },
+  {
+    "path": "evidence/historical/unity-MIT-LICENSE.md",
+    "bytes": 1118,
+    "sha256": "1c9515a8b04b4d727114a11b2571e57f2015bcca642fdf0e96668fdc97567a13"
+  },
+  {
+    "path": "evidence/historical/unity-mydesk.asset",
+    "bytes": 15392,
+    "sha256": "7dfd82a2f997103beedcae37d74c783c3fdb8f3cd3d7f21f266a2be010ed8776"
+  },
+  {
+    "path": "evidence/historical/unity-package-LICENSE.md",
+    "bytes": 1095,
+    "sha256": "6385571f0d158e854d279845a8e08bb0e85ba9721f017b7d9a1ac68199e7f341"
+  },
+  {
+    "path": "evidence/historical/unity-version.txt",
+    "bytes": 85,
+    "sha256": "b51164d22c4d2716ba8aee7f0b59d6b7dd0efa8552fd1db2a8c3b123fae3a1ec"
+  },
+  {
+    "path": "evidence/historical/unity-vr-manifest.json",
+    "bytes": 3164,
+    "sha256": "85513a5e79c0419b33c5f7d26f1e15654c95b98b29c482f22f9333632f996ef2"
+  },
+  {
+    "path": "evidence/historical/video_to_gs_dataset.py",
+    "bytes": 8313,
+    "sha256": "96d7346fe6cb61ef64de4d3c3d37eaa132472e0f3e50e9a58566ed886c53076a"
+  },
+  {
+    "path": "evidence/images/bag_20251227-first-frame.jpg",
+    "bytes": 342824,
+    "sha256": "0a18eab194c52f30fe3ccf857713b707bcea6b4a45b00f7b473cd0ac2c04eb49"
+  },
+  {
+    "path": "evidence/images/cloudcompare-20260105.jpg",
+    "bytes": 2944187,
+    "sha256": "8f0c932b603618e559eb1bb03c24255ad2239c2d1a14c3480201fd08ceecc7c3"
+  },
+  {
+    "path": "evidence/images/desk_20260108-first-frame.jpg",
+    "bytes": 307987,
+    "sha256": "50dafb7eccd5868123b0d89bd8f2151fe2d68fe35a8a6ecdff71230f53beed82"
+  },
+  {
+    "path": "evidence/images/lab_20251227-first-frame.jpg",
+    "bytes": 70109,
+    "sha256": "37e357877f359d665dfff3b1565b2efc5696818a177f3ffe63c9abb8d423c487"
+  },
+  {
+    "path": "evidence/images/refined-200-view25.png",
+    "bytes": 390720,
+    "sha256": "50897e4fe50d060081c485ac228b2db741105643b80f13f11184fa01e3548374"
+  },
+  {
+    "path": "evidence/images/rerender-30000-view25.png",
+    "bytes": 389442,
+    "sha256": "fc803ea6395d5c765d45ccba98c78aed8d5884e8852cc6d085a92e8b48dc22c2"
+  },
+  {
+    "path": "evidence/images/unity-20260108.png",
+    "bytes": 3693038,
+    "sha256": "bd7cf017f7ef70b0e5a3c91beafb60cae41085896847331873fa8568bdeac1b4"
+  },
+  {
+    "path": "evidence/images/wsl_source_video-first-frame.jpg",
+    "bytes": 378617,
+    "sha256": "6201154cde8acda02c250dec0d108ad49c1812a64a0a81b92dec1b7e4b14b277"
+  },
+  {
+    "path": "evidence/inspect_historical.py",
+    "bytes": 5309,
+    "sha256": "fe7ca8fef1aa0140f109b5f886fd5b0be1e4442603e1824d2f22f3df2af4743c"
+  },
+  {
+    "path": "evidence/metadata-consistency.json",
+    "bytes": 3979,
+    "sha256": "3587ef4916f25ebccc2f00ecd211ec7265ac03eea8d58137fb0925389d03148a"
+  },
+  {
+    "path": "evidence/observations.md",
+    "bytes": 6580,
+    "sha256": "a4bc94c9d7f675b8dddc868b175c0bb720f9a17313056c6851085ac57f5486dd"
+  },
+  {
+    "path": "evidence/outputs/20260916/camera-path.json",
+    "bytes": 49657,
+    "sha256": "1056d82cdeb790032836cc23b93d3279d09bebf91442b71a1176e1679c70d7c3"
+  },
+  {
+    "path": "evidence/outputs/20260916/environment-versions.json",
+    "bytes": 308,
+    "sha256": "0fb9afa493eed150ca3d650ec856b7ca5affa6dab70ece4f282f676d6e021845"
+  },
+  {
+    "path": "evidence/outputs/20260916/input-provenance.json",
+    "bytes": 13019,
+    "sha256": "eaef579b4d770549ca325cc77f9c42efe2b40a93c73ec1dc569ad2074f28846e"
+  },
+  {
+    "path": "evidence/outputs/20260916/iteration_30000/per-view-metrics.csv",
+    "bytes": 4128,
+    "sha256": "9373bb66897313f631f3af7500287b60a1ad0f23eb5c5eba935010f1329cb34f"
+  },
+  {
+    "path": "evidence/outputs/20260916/iteration_30000/summary.json",
+    "bytes": 184,
+    "sha256": "c63eb50b032fc3762fb58b4b37e9e97fa7daa6d2925d1d50e39dd2dd7b86d2ec"
+  },
+  {
+    "path": "evidence/outputs/20260916/iteration_7000/per-view-metrics.csv",
+    "bytes": 4157,
+    "sha256": "9603ea684ba649f3e4b28307aa03676f4a26f1f9d53b4070c899e7d3cc10ba62"
+  },
+  {
+    "path": "evidence/outputs/20260916/iteration_7000/summary.json",
+    "bytes": 183,
+    "sha256": "ecd3456dd09720e309cbb85e52202ce18f81ce73f5075699662c7d35dfd2a350"
+  },
+  {
+    "path": "evidence/outputs/20260916/metrics-summary.json",
+    "bytes": 757,
+    "sha256": "2ab5ff901b7d2814f68cbd065a49769501432a92e860beaea1bc942937ff92f5"
+  },
+  {
+    "path": "evidence/outputs/20260916/refined_200/per-view-metrics.csv",
+    "bytes": 4150,
+    "sha256": "65422bd334945ce4072dbeb99867a995342ad731939a9c687491f3ec3331ebec"
+  },
+  {
+    "path": "evidence/outputs/20260916/refined_200/refinement-timing.json",
+    "bytes": 116,
+    "sha256": "9a6b712fd40412c388e523cc8db28b17a39df98a66ea2547a7b69579da3646a6"
+  },
+  {
+    "path": "evidence/outputs/20260916/refined_200/summary.json",
+    "bytes": 184,
+    "sha256": "e8d9fab615414da93416200f929b79954b58938fd14fe2ba4eff8610bd8930c4"
+  },
+  {
+    "path": "evidence/outputs/20260916/refined_200/training-loss.csv",
+    "bytes": 15209,
+    "sha256": "6fbfd6794392cde042fdaa32bacf6555400f7d1c90ac30055561468c7097262e"
+  },
+  {
+    "path": "evidence/outputs/20260916/refinement-learning-rates.json",
+    "bytes": 150,
+    "sha256": "34ccc94bfe4b8ba262b8a865e434715a9a8b09d60858aa19f3b8a37c1c6b47c8"
+  },
+  {
+    "path": "evidence/outputs/20260916/resources.json",
+    "bytes": 2045,
+    "sha256": "292f6d593c2b7c29bb2b43404e7ddc92eb59143198a4b5aab554fa008b921cce"
+  },
+  {
+    "path": "evidence/outputs/20260916/run-config.json",
+    "bytes": 551,
+    "sha256": "258e7a9e1441b0e2c26e9f19cdb99b64ebd0a6edd0037d84cde1f7174d3e983c"
+  },
+  {
+    "path": "evidence/outputs/20260916/run.log",
+    "bytes": 1673,
+    "sha256": "e4a1564af5b35f0be6537dab4a13de12eb4915afc183710080072999698aac83"
+  },
+  {
+    "path": "evidence/outputs/20260916/video-verification.json",
+    "bytes": 1973,
+    "sha256": "7734c52f7bce6841479f215d2daec0ff7f45a24b75cb6b929aa71739543e7b99"
+  },
+  {
+    "path": "evidence/public/mydesk-camera-path.mp4",
+    "bytes": 1340287,
+    "sha256": "13d2988200bcae63f8c37ea25ac0443a93aaa90f5d0b89ebd0f62ed5704d7df9"
+  },
+  {
+    "path": "evidence/public/mydesk-comparison.mp4",
+    "bytes": 2208053,
+    "sha256": "25514e302332f4ded14e2692283f01a36849c6d8c6ec777c6ad4e42111278627"
+  },
+  {
+    "path": "evidence/publication-manifest.json",
+    "bytes": 1308,
+    "sha256": "ebec9725fad96d99c628cb7b41f79bae3f97c45207d225767585eb2eb2fd3c26"
+  },
+  {
+    "path": "evidence/rerun_mydesk.py",
+    "bytes": 9851,
+    "sha256": "76470bcbd0b7663a86813a5ac7082e586ecdba92cbe973b168196cdeeeaa64f3"
+  },
+  {
+    "path": "evidence/run-record.json",
+    "bytes": 2050,
+    "sha256": "d75e4473f4d1c10877f8fcccaafb711c23c6900794696bc4f76f7ae95298b731"
+  },
+  {
+    "path": "evidence/validation.json",
+    "bytes": 211,
+    "sha256": "fc5f3b217fb1f77948a1e0380955a4a4b6bdb13ea4206e718d1aff2ad6113df8"
+  },
+  {
+    "path": "evidence/video-inventory.json",
+    "bytes": 1106,
+    "sha256": "adc1fe9c042ebc29a88fc2f019334dd5253896385c21f4a80ca2408e950d2a7c"
+  },
+  {
+    "path": "gallery.html",
+    "bytes": 3118,
+    "sha256": "a19e61024a989d4ab932cdd06b180f16674959d0c4d7633aa0ed6c551960974a"
+  },
+  {
+    "path": "index.html",
+    "bytes": 156,
+    "sha256": "5772c06603ab12a0445bdf5b281526a5d107ab374e74bb88ae8074b0fc98740f"
+  },
+  {
+    "path": "media/previews/mydesk-camera-path.webm",
+    "bytes": 599423,
+    "sha256": "b90713275b7f9d41cefa9ff1c22a73fc8f4acc23323d910a1912a7be63837d77"
+  },
+  {
+    "path": "media/previews/mydesk-comparison.webm",
+    "bytes": 532796,
+    "sha256": "8c06aaef8877df47c2ee669189b7227f743d60691ff2b9b9086c949d9cab6cdc"
+  }
+]
