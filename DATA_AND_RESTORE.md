@@ -1,8 +1,10 @@
 # 데이터 보존 및 복원 안내
 
+**2026-09-16 최종 보존 상태:** 조사한 Windows 연구 원본과 WSL 전체 export, 연구별 직접 추출본, conda·Unity·Unreal 환경 archive의 로컬 내용 검증을 마쳤다. USB 전송·외부 사본 검증과 초기화 후 전체 실행은 아직 수행하지 않았다. 실제 복사 목록·해시·확인하지 못한 자료는 개인 보존 묶음의 `PRESERVATION_STATUS.md`와 `_control/manifests/`를 기준으로 확인한다.
+
 이 저장소는 연구실 자리 3D Gaussian Splatting의 설명, 선택 근거, 재실행 코드와 공개 검토를 거친 결과를 보관한다. **원본 전체 데이터와 실행 환경은 별도의 비공개 ResearchCollection에 보존한다. GitHub clone만으로 전체 실험을 복원할 수 없다.**
 
-2026-09-16 이 문서 작성 시 전체 로컬 복사/WSL export/환경 snapshot 및 해시 검증이 진행 중이다. USB·외장 저장장치 사본 검증과 초기화 후 복원 실행은 완료되지 않았다. 이 문서는 데이터 위치와 복원 절차를 설명하며 완전한 백업 완료를 주장하지 않는다. 최종 상태는 로컬 collection의 검증 보고서와 각 copy manifest를 확인해야 한다.
+최종 복사·검증 범위와 아직 남은 외부 보관·실행 검증은 아래 최종 상태와 개인 보존 묶음의 관리 기록을 확인한다.
 
 ## 보존 구조
 
@@ -11,8 +13,8 @@
 | 자료 | 비공개 보존 위치 | 역할 |
 |---|---|---|
 | 연구실 자리 프레임·COLMAP·기존 모델 | `originals/desktop_gs_root/mydesk/` | `frames`, `colmap/database.db`, `gs_dataset/images`, `gs_dataset/sparse/0`, `model` |
-| 실제 자리 촬영 원본 `mydesk.mp4` | `_shared/wsl/Ubuntu-22.04.tar.zst` 내부 `~/gaussian-splatting/source_video/mydesk.mp4` | 13,178,554바이트 원본 입력 영상 |
-| Graphdeco 전체 소스·다른 데이터 snapshot | 같은 WSL archive 내부 `~/gaussian-splatting/` | `datasets/mydesk`, `outputs/mydesk`, 사용자 변환 스크립트, submodules, SIBR 소스 |
+| 실제 자리 촬영 원본 `mydesk.mp4` | `originals/wsl-home/gaussian-splatting/source_video/mydesk.mp4`와 WSL 전체 archive 내부 같은 원본 | 13,178,554바이트 원본 입력 영상 |
+| Graphdeco 전체 소스·다른 데이터 snapshot | `originals/wsl-home/gaussian-splatting/` 및 WSL 전체 archive | `datasets/mydesk`, `outputs/mydesk`, 사용자 변환 스크립트, submodules, SIBR 소스 |
 | Windows SIBR 실행 번들 | `originals/sibr_viewers/` | EXE/DLL/셰이더, `run_mydesk.bat`, `output/mydesk`, `output/duck` |
 | Unity VR 구현 | `originals/unity_vr/` | 루트 `package/`, `VR-URP/Assets`, `Packages`, `ProjectSettings`, `.git` |
 | Unity 추가 작업 | `originals/unity_gs0224/`, `originals/unity_sound/`, `originals/unity_project1229/` | 시작 프로젝트·렌더러 1.1.1 포함 프로젝트·Meta XR 시제품. 모두 자리 복원 성공으로 간주하지 않는다. |
@@ -24,7 +26,7 @@
 | 환경 정의/패키지 목록 | `_shared/environments/conda/gs_graphdeco-*` | environment.yml, explicit spec, pip freeze/list |
 | Windows CUDA extension 빌드 소스 | `05-GSPhysicalInference/originals/graphdeco_build_mirror/` | 로컬 컴파일 rasterizer·simple_knn·fused_ssim의 소스/빌드 상태 |
 
-`originals/desktop_gs_root/2026_01_08/my desk.mp4`는 화면을 촬영한 시연 기록이다. 원본 재구성 입력 영상 `source_video/mydesk.mp4`와 구분한다. 보존 경로는 copy 작업 매핑이며 존재/전송 성공/복원 가능성은 별도로 검증해야 한다.
+`originals/desktop_gs_root/2026_01_08/my desk.mp4`는 화면을 촬영한 시연 기록이다. 원본 재구성 입력 영상 `source_video/mydesk.mp4`와 구분한다. 직접 추출한 GS 4개 root의 10,094파일/3,309,308,823바이트를 archive 내용과 SHA-256으로 대조했다. 원본 자리 영상 986프레임 전체 decode와 7k·30k PLY 구조 읽기도 확인했다. 외부 USB 전송과 초기화 후 실행 성공은 별도 검증 항목이다.
 
 ## 핵심 입력과 모델
 
