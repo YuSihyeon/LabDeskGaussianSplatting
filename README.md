@@ -1,14 +1,21 @@
 # 연구실 자리 3D Gaussian Splatting 복원과 Unity 시각화
 
 
-**독립 연구 저장소:** [GitHub](https://github.com/YuSihyeon/LabDeskGaussianSplatting) · [전체 데이터와 복원 범위](DATA_AND_RESTORE.md) · [영상 갤러리](https://yusihyeon.github.io/LabDeskGaussianSplatting/gallery.html)
+**독립 연구 저장소:** [GitHub](https://github.com/YuSihyeon/LabDeskGaussianSplatting) · [전체 데이터와 복원 범위](DATA_AND_RESTORE.md)
 
 휴대형 카메라 영상으로 연구실 책상·의자·파티션을 복원하고, 점군을 확인한 뒤 Unity에서 표시한 작업을 정리한 기록이다. 남아 있는 파일로 **66개 프레임 → 59개 등록 시점 → COLMAP 희소점 → 7k/30k Gaussian 모델 → Unity 자산**의 흐름을 확인했다. 2026-09-16에는 기존 모델을 실제 CUDA 렌더러로 다시 실행하고, 별도의 200회 추가 최적화 실험과 영상을 만들었다.
 
 이 문서는 당시 결과, 이번에 계산한 통계, 당시 의도에 대한 추론을 구분한다. 원본 학습 로그·정량 CloudCompare 분석·최종 Unity 장면 저장에는 공백이 있고, 일부 카메라 메타데이터는 서로 일치하지 않는다.
 
-- [기존 30k 모델의 새 카메라 경로 영상 — 공개 구간 8.33초](evidence/public/mydesk-camera-path.mp4)
-- [7k / 30k / 200회 추가 최적화 비교 영상 — 공개 구간 13초](evidence/public/mydesk-comparison.mp4)
+## 영상과 설명
+
+영상 제목이나 미리보기를 누르면 해당 MP4 파일을 열 수 있습니다.
+
+| 영상 | 설명 |
+|---|---|
+| [**연구실 자리 · 카메라 이동 렌더**](evidence/public/mydesk-camera-path.mp4)<br>[![연구실 자리 · 카메라 이동 렌더 미리보기](evidence/images/rerender-30000-view25.png)](evidence/public/mydesk-camera-path.mp4) | 기존 30k Gaussian 모델에서 2026-09-16에 다시 렌더링한 보간 카메라 경로입니다. 공개 구간은 8.33초이며 사람이 없는 구간을 선별했습니다. |
+| [**7k · 30k · 추가 200회 최적화 비교**](evidence/public/mydesk-comparison.mp4) | 같은 입력 시점에서 세 결과를 비교한 13초 영상입니다. 공개 영상은 26개 시점이며, 학습 시점의 비교이지 별도 평가 시점의 일반화 성능은 아닙니다. |
+
 - [실제 실행 코드](evidence/rerun_mydesk.py), [명령·버전·실험 구분](evidence/run-record.json), [새 평가 수치](evidence/outputs/20260916/metrics-summary.json)
 
 ![당시 Unity에서 표시한 연구실 자리](evidence/images/unity-20260108.png)

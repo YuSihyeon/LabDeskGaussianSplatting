@@ -21,8 +21,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 23563,
-    "sha256": "def1d19aa5ce765dab2f20f4c410d19171eee2973376f37e3f7cdfdfaf45772f"
+    "bytes": 24105,
+    "sha256": "de4e2e038858558b43696b3b07c5b0a3b19faa0d932731dcb1b7ba9acaeca44d"
   },
   {
     "path": "evidence/copied-evidence-manifest.json",
@@ -248,16 +248,6 @@
     "path": "evidence/video-inventory.json",
     "bytes": 1106,
     "sha256": "adc1fe9c042ebc29a88fc2f019334dd5253896385c21f4a80ca2408e950d2a7c"
-  },
-  {
-    "path": "gallery.html",
-    "bytes": 3118,
-    "sha256": "a19e61024a989d4ab932cdd06b180f16674959d0c4d7633aa0ed6c551960974a"
-  },
-  {
-    "path": "index.html",
-    "bytes": 156,
-    "sha256": "5772c06603ab12a0445bdf5b281526a5d107ab374e74bb88ae8074b0fc98740f"
   },
   {
     "path": "media/previews/mydesk-camera-path.webm",
