@@ -1,8 +1,8 @@
 {
   "project": "01-LabDeskGaussianSplatting",
   "files": 53,
-  "bytes": 13456085,
-  "curated_links_checked": 79,
+  "bytes": 13462262,
+  "curated_links_checked": 80,
   "issues": [],
   "status": "passed",
   "scope": "Independent public repository file hashes, JSON syntax, curated links and known-key patterns. Full private originals and external USB verification are separate."
